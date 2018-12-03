@@ -37,12 +37,6 @@ section,
 summary {
   display: block;
 }
-.button {
-  border-top: 5px solid black;
-  border-left: 5px solid black;
-  border-right: 5px solid black;
-  border-bottom: none;
-}
 audio,
 canvas,
 progress,
@@ -275,12 +269,12 @@ img {
 .img-circle {
   border-radius: 50%;
 }
-hr {
+/*hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee;
-}
+}*/
 .sr-only {
   position: absolute;
   width: 1px;

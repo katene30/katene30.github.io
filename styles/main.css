@@ -1,15 +1,20 @@
 .button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
+        border-top: 5px solid black;
+        border-left: 5px solid black;
+        border-right: 5px solid black;
+        border-bottom: none;
+        margin-top: 30px;
+      }
 }
-h2{
-    color: red;
+hr{
+    border-top: 3px solid black;
 }
 p{
     font-size: 100px;
 }
+hr.main {
+    border: 3px solid black;
+    margin-top: -100px;
+    margin-bottom: 0px;
+    border-width: 3px;
+  }
