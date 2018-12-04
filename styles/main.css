@@ -1,20 +1,33 @@
-.button {
-        border-top: 5px solid black;
-        border-left: 5px solid black;
-        border-right: 5px solid black;
-        border-bottom: none;
-        margin-top: 30px;
-      }
-}
-hr{
-    border-top: 3px solid black;
-}
-p{
-    font-size: 100px;
-}
+
 hr.main {
     border: 3px solid black;
-    margin-top: -100px;
+    margin-top: 0em;
     margin-bottom: 0px;
     border-width: 3px;
+    position: relative;
+    z-index: 1;
   }
+
+.logo{
+      z-index: 2;
+      position: relative;
+  }
+
+  .bg-image {
+    /* The image used */
+    background-image: url("me.jpeg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+#description{
+    font-size: 3em;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.5);
+}
