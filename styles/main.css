@@ -125,3 +125,7 @@ a.navigate-button:active {
 p.content{
     font-size: 10px;
 }
+
+#current-page{
+    color: black;
+}
