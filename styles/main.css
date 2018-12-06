@@ -1,3 +1,6 @@
+body{
+    background-color:#193500;
+}
 hr.main {
     border: 3px solid black;
     margin-top: 0em;
@@ -25,7 +28,7 @@ hr.main {
     background-size: cover;
 
   }
-#description{
+  #description{
     font-size: 3em;
     color: white;
     background-color:rgba(0, 0, 0, 0.5);
@@ -100,7 +103,7 @@ a.navigate-button:active {
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: pink;}
+  .dropdown-content a:hover {background-color: lightgreen;}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
@@ -111,3 +114,14 @@ a.navigate-button:active {
   .dropdown:hover .dropbtn {
     background-color: none;
   }
+
+.content{
+      color: white;
+      background-color:rgba(0, 0, 0, 0.5);
+      text-align: left;
+      font-size:20px;
+  }
+
+p.content{
+    font-size: 10px;
+}
