@@ -1,0 +1,175 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My blog</title>
+    </head>
+  <body>
+    <div id="bg-image">
+    <div class="container">
+      <div class="row">
+        <!--Logo-->
+        <div class="col-md-2 titlebox text-center" style="top: -160">
+              <a href="index.html">
+                <img class="logo" src="KJC.png" alt="KJC logo" width="200" height="200"  style="top: 12em;">
+              </a>
+        </div>
+        <!--Sprint 1 Button-->
+        <div class="col-md-2 navigate-button dropdown">
+        <button class="dropbtn"><h2>Sprint 1</h2></button>
+            <div class="dropdown-content">
+              <a href="blog/sprint1-technical.html"> Sprint 1 Technical</a>
+              <a href="sprint1-cultural.html">Sprint 1 Cultural</a>
+            </div>
+          </div>
+        <!--Sprint 2 Button-->
+        <div class="col-md-2 navigate-button dropdown">
+            <button class="dropbtn"><h2>Sprint 2</h2></button>
+            <div class="dropdown-content">
+              <a href="sprint2-technical.html"> Sprint 2 Technical</a>
+              <a href="sprint2-cultural.html">Sprint 2 Core</a>
+            </div>
+          </div>
+          <!--Sprint 3 Button-->
+          <div class="col-md-2 navigate-button">
+              <button class="dropbtn"><h2>Sprint 3</h2></button>
+          </div>    
+          <!--Sprint 4 Button-->
+          <div class="col-md-2 navigate-button">
+              <button class="dropbtn"><h2>Sprint 4</h2></button>
+          </div>
+          <!--Sprint 5 Button-->
+          <div class="col-md-2 navigate-button">
+              <button class="dropbtn"><h2>Sprint 5</h2></button>
+          </div>
+      <!--Horizontal Rule-->
+      <div class="row">
+          <div class="col-md-12">
+            <hr class="main">
+          </div>
+      </div>
+        
+      </div>
+      <!--Main Content to change-->
+      <div class="row content">
+        <div class="col-md-12">
+          <h2>HTML and CSS<br>
+        <small>We can use a painting as an example to show the differences between HTML and CSS.</small></h2>
+        </div>
+      </div>
+      <div class="row content">
+          <div class="col-md-6">
+              <p>
+                    HTML is basically the initial structure of the website. It lays down the foundations and
+                     attributes of what the website is intended for. In a painting, we can say that not only 
+                     the canvas will be acting as the “container” for the painting but also the working lines 
+                     and rough sketches before adding details. 
+              </p>
+          </div>
+          <div class="col-md-6">
+                <img src="sprint3-technical-pictures/mario-sketch.jpg" alt="sketch of mario" width="200" height="200">
+          </div>
+      </div>
+      <div class="row content">
+          <div class="col-md-6">
+            <p>And left alone this painting can look quite boring. Well, it’s not even a painting yet. That’s 
+                where CSS comes in. CSS acts as our “paint” or “decoration” that adds flare and alters what the 
+                overall design actually looks like. CSS turns a standard HTML page into a website more visually 
+                appealing like this. 
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="sprint3-technical-pictures/mario-coloured.jpg" alt="coloured photo of mario" width="200" height="200">
+          </div>
+      </div>
+      <div class="row content">
+          <div class="col-md-12">
+              <h2>
+                    Explain control flow and loops using an example process from everyday life, for example 'waking up' or 
+                    'brushing your teeth'.
+              </h2>
+              <p>
+                    The control flow is the order in which the computer executes statements in a script. You utilize loops and 
+                    control statements to setup the order of execution. Say for example, you’re figuring out what you’re gonna wear 
+                    for the day. I’d first think “Am I going out today?” if not then I’d just wear home clothes. Else if I am then 
+                    I’d look outside or check my weather forecast to see what they day is gonna look like. If it looks like it’s gonna
+                     be a hot day, then I would wear nothing too heavy. If it looks like it’s gonna pour down, I’d consider bringing a
+                      rain jacket and so on.
+                    <br>
+                    That example was basically a loop. It used if statements and checks to come to a conclusion on what 
+                    to wear according to the day!
+              </p>
+              <h2>
+                    Describe what the DOM is and an example of how you might interact with it.
+              </h2>
+              <p>
+                    Document Object Model, (or as the tech kids say, “DOM”) is an application programming interface for HTML.
+                     It defines the logical structure of documents and the way a document is accessed and manipulated. DOM 
+                     expresses the HTML document as a tree like a family tree with parents and children.
+              </p>
+              <img src="sprint3-technical-pictures/DOM-tree.png" alt="picture of logic tree">
+              <p class="lead">
+                    Every element on the tree is called a node.
+              </p>
+              <p>
+                    DOM allows you to interact with the nodes. For example, you can:
+              </p>
+              <ul>
+                  <li>Access each node</li>
+                  <li>Modify each node</li>
+                  <li>Identify a node</li>
+                  <li>Retrieve different nodes you want to edit</li>
+              </ul>
+              <h2>
+                    Explain the difference between accessing data from arrays and objects.
+              </h2>
+              </div>
+      </div>
+      <div class="row content">
+          <div class="col-md-6">
+            <h3>
+                Array
+            </h3>
+            <p>
+                    An array is a special variable, which can hold more than one value at
+                     a time like a list. An array can hold many values under a single name, 
+                     and you can access the values by referring to an index number.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h3>
+                Object
+            </h3>
+            <p>
+                    An object is a collection of related data or functions . An object stores 
+                    data by keys and each key gets given a name that you assign to it. So to access the 
+                    data for that key you would reference the object’s name and then the key name to 
+                    return the data to you. For example 
+                    <b>myObject.myKey</b>
+            </p>
+          </div>
+      </div>
+      <div class="row content">
+          <div class="col-md-12">
+              <h2>
+                    Explain what functions are and why they are useful.
+              </h2>
+              <p>
+                    A function is code that can execute a procedure that you’ve assigned to it. The reason
+                     why they are used so much is that it can take a long list of instructions and distill
+                      it into one command to be called upon and executed.
+              </p>
+          </div>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+  </body>
+</html>
